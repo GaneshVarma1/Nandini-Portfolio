@@ -231,10 +231,10 @@ const experience = [
     location: "India",
     duration: "July 2021 - Aug 2022",
     responsibilities: [
-      "Developed applications using Spring Framework and Java EE technologies.",
-      "Created responsive front-end applications with Vue.js, HTML5, and CSS3.",
-      "Built and deployed cloud-based applications on Microsoft Azure services.",
-      "Implemented CI/CD pipelines using Azure DevOps and GitHub.",
+      "Developed an internal ticketing CRUD application using spring boot, hibernate ORM and REST API's",
+      "Created responsive front-end applications with React.js, javascript and tailwind CSS.",
+      "Built and deployed cloud-based applications on AWS services.",
+      "Established and maintained CI/CD pipelines with Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
     ],
     technologies: [
       "Spring Framework",

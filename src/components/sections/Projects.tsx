@@ -22,7 +22,7 @@ const projects = [
     ],
   },
   {
-    title: "Cloud Solutions at L&T",
+    title: "Arena Games",
     description:
       "Developed enterprise-level applications using Spring Framework and Azure",
     technologies: ["Spring", "Azure", "Vue.js", "SQL Server"],
