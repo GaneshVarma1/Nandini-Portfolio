@@ -324,6 +324,8 @@ const About = () => {
           className="mb-12"
         >
           <h2 className="text-center text-3xl font-bold">About Me</h2>
+          <p className="mt-10">I am a passionate full stack developer with over 4 years of experience in building scalable applications for complex problems. In these 4 years, I’ve gained hands on experience in backend frameworks like Django(python), Spring Boot, Spring Security and Hibernate ORM. For Instance, in my current role at Lowes, I played a crucial role in migrating monolithic application to micro services architecture using Spring Boot which improved scalability by 20%. Also, security was our main priority, for that I Implemented secure, stateless authentication using OAuth version 2.0 & spring security. Not only backend, I am also well versed in frontend, I’ve built dynamic user interfaces using React.js and implemented server side rendering that improved the performance of the website. Cloud computing is another area where I thrive. At Lowe’s, I designed and deployed scalable, cloud-native solutions on AWS, including EC2 and Lambda. This effort enabled seamless scaling during peak traffic and improved infrastructure efficiency by 50%. In addition to development, I actively mentor junior team members, sharing best practices and helping them grow technically. I’ve also worked cross-functionally with devops and testing teams to deliver high quality applications. 
+      </p>
         </motion.div>
 
         {/* Skills Section */}
