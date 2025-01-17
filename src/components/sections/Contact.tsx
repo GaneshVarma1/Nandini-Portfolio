@@ -39,7 +39,7 @@ export function Contact() {
 
         <div className="flex justify-center gap-6 mt-4">
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/nandinimorla"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
@@ -47,7 +47,7 @@ export function Contact() {
             <Linkedin size={28} />
           </a>
           <a
-            href="https://instagram.com/your-profile"
+            href="https://instagram.com/nandinimorla"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
@@ -55,7 +55,7 @@ export function Contact() {
             <Instagram size={28} />
           </a>
           <a
-            href="path-to-your-resume.pdf"
+            href="https://drive.google.com/file/d/1GtJKhSGd_fT4Sn_hshgeRJcDe0EEwu61/view"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
