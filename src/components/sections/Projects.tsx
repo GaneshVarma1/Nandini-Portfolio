@@ -8,47 +8,56 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Enterprise Applications at Lowe's",
+    title: "SheNeeds - E-commerce Website",
     description:
-      "Led development of high-performance Java applications with 99% code efficiency",
-    technologies: ["Java", "Spring Boot", "AWS", "Microservices"],
-    achievements: [
-      "Improved system maintainability by 30%",
-      "Reduced data access time by 25%",
-      "Implemented CI/CD pipelines",
-    ],
+      "A full-stack e-commerce platform built with Next.js and integrated database for product and image management",
+    technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
+    demoLink: "https://ecommerce-website-she-needs.vercel.app",
+    githubLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
   },
   {
-    title: "Cloud Solutions at L&T",
+    title: "AI Website Chatbot",
     description:
-      "Developed enterprise-level applications using Spring Framework and Azure",
-    technologies: ["Spring", "Azure", "Vue.js", "SQL Server"],
-    achievements: [
-      "Implemented automated workflows",
-      "Enhanced data pipeline management",
-      "Optimized database performance",
-    ],
+      "An intelligent chatbot that can analyze and respond to queries about any website's content when given its URL",
+    technologies: ["Next.js", "AI/ML", "TypeScript", "API Integration"],
+    demoLink: "https://chatbot-plum-ten.vercel.app",
+    githubLink: "https://github.com/morlanandini/chatbot",
   },
   {
-    title: "Microservices at Virtusa",
+    title: "AddTips - Social Tips Platform",
     description:
-      "Built scalable microservices architecture using Spring Boot and AWS",
-    technologies: ["Java", "Spring Boot", "AWS", "Microservices"],
-    achievements: [
-      "Improved system scalability",
-      "Enhanced application availability",
-      "Optimized cloud infrastructure",
-    ],
+      "A social platform where users can share and discover tips, featuring user authentication and PostgreSQL database",
+    technologies: ["Next.js", "PostgreSQL", "Auth", "Tailwind CSS"],
+    demoLink: "https://addtips.vercel.app",
+    githubLink: "https://github.com/morlanandini/addtips",
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "A responsive expense tracking application built with React and TypeScript for managing personal finances",
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    demoLink: "https://expense-tracker-morlanandini.vercel.app",
+    githubLink: "https://github.com/morlanandini/expense-tracker",
+  },
+  {
+    title: "Memory Game",
+    description:
+      "An interactive memory card game with image flipping mechanics and score tracking",
+    technologies: ["React", "JavaScript", "CSS"],
+    demoLink: "https://memory-game-xi-black.vercel.app",
+    githubLink: "https://github.com/morlanandini/memory-game",
   },
 ];
 
 const Projects = () => {
   return (
     <section id="projects" className="relative py-20">
-      <div className="container mx-auto px-4 pt-20">
+      <div className="container mx-auto px-4">
         <h2 className="mb-8 text-center text-3xl font-bold">My Projects</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
@@ -58,7 +67,7 @@ const Projects = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="overflow-hidden">
+              <Card className="h-full">
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
@@ -72,14 +81,27 @@ const Projects = () => {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="flex flex-col gap-2">
-                  <div className="space-y-2">
-                    {project.achievements.map((achievement, i) => (
-                      <p key={i} className="text-sm text-muted-foreground">
-                        • {achievement}
-                      </p>
-                    ))}
-                  </div>
+                <CardFooter className="flex gap-4">
+                  {project.demoLink && (
+                    <Button
+                      variant="outline"
+                      className="flex-1"
+                      onClick={() => window.open(project.demoLink, "_blank")}
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Live Demo
+                    </Button>
+                  )}
+                  {project.githubLink && (
+                    <Button
+                      variant="outline"
+                      className="flex-1"
+                      onClick={() => window.open(project.githubLink, "_blank")}
+                    >
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </Button>
+                  )}
                 </CardFooter>
               </Card>
             </motion.div>

@@ -3,6 +3,35 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { cn } from "@/lib/utils";
+
+interface BentoGridItemProps {
+  name: string;
+  icon: string;
+  className?: string;
+}
+
+const BentoGridItem = ({ name, icon, className }: BentoGridItemProps) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.2 }}
+      viewport={{ once: true }}
+      className={cn(
+        "group relative flex flex-col items-center p-4 transition-all hover:scale-105",
+        className
+      )}
+    >
+      <div className="relative z-10">
+        <img src={icon} alt={name} className="h-12 w-12 object-contain" />
+      </div>
+      <span className="relative z-10 mt-2 text-sm text-muted-foreground">
+        {name}
+      </span>
+    </motion.div>
+  );
+};
 
 const skills = [
   {
@@ -326,30 +355,127 @@ const About = () => {
           <h2 className="text-center text-3xl font-bold">About Me</h2>
         </motion.div>
 
+        {/* Introduction Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mb-16 text-center"
+        >
+          <div className="mx-auto max-w-3xl space-y-4">
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              I am a passionate Full Stack Developer with a Master's degree in
+              Computer Science from SUNY New Paltz. With over 4+ years of
+              experience in software development, I specialize in building
+              scalable web applications and enterprise solutions using modern
+              technologies.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              Currently working as a Java J2EE Developer at Lowe's, I focus on
+              developing high-performance applications and microservices. My
+              expertise spans both front-end and back-end development, with a
+              strong foundation in cloud technologies and DevOps practices.
+            </p>
+
+            {/* Key Achievements Section */}
+            <div className="mt-8">
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="rounded-lg bg-background/50 p-6 backdrop-blur">
+                  <h4 className="mb-4 text-xl font-semibold">
+                    Recent Highlights at Lowe's
+                  </h4>
+                  <ul className="space-y-2 text-left text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Developed enterprise-grade applications using Core Java,
+                        achieving high code efficiency and scalability.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Utilized the Spring Framework with dependency injection
+                        to improve flexibility and testability.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Designed and built microservices using Spring Boot to
+                        support distributed and scalable architectures.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Integrated Kafka for real-time data flow, enhancing
+                        messaging efficiency within microservices.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="rounded-lg bg-background/50 p-6 backdrop-blur">
+                  <h4 className="mb-4 text-xl font-semibold">
+                    Academic Achievements
+                  </h4>
+                  <ul className="space-y-2 text-left text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Outstanding Graduate Merit Award recipient in the
+                        master's program.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Teaching assistant for all four semesters of the
+                        master's program, mentoring students and leading
+                        workshops.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Completed advanced coursework in Distributed Systems,
+                        Cloud Computing, and Machine Learning algorithms.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Led research projects in AI/ML applications, resulting
+                        in practical implementations of modern algorithms.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Collaboration Statement */}
+            <p className="mt-6 text-lg leading-relaxed text-muted-foreground font-semibold">
+              I am open to collaborating on innovative projects and sharing
+              insights on full-stack development, back-end architecture, and
+              emerging technologies. I aim to contribute to impactful projects
+              that leverage my technical expertise and problem-solving skills.
+            </p>
+          </div>
+        </motion.div>
+
         {/* Skills Section */}
         <div className="mb-20">
           <h3 className="mb-8 text-center text-2xl font-semibold">Skills</h3>
-          <div className="grid grid-cols-3 gap-8 sm:grid-cols-4 md:grid-cols-6">
-            {skills.map((skill, index) => (
-              <motion.div
+          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+            {skills.map((skill) => (
+              <BentoGridItem
                 key={skill.name}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.2, delay: index * 0.05 }}
-                viewport={{ once: true }}
-                className="group flex flex-col items-center"
-              >
-                <div className="mb-2 rounded-xl ">
-                  <img
-                    src={skill.icon}
-                    alt={skill.name}
-                    className="h-10 w-10"
-                  />
-                </div>
-                <span className="text-sm text-muted-foreground">
-                  {skill.name}
-                </span>
-              </motion.div>
+                name={skill.name}
+                icon={skill.icon}
+              />
             ))}
           </div>
         </div>
