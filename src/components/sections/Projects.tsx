@@ -24,9 +24,9 @@ const projects = [
     title: "Arena Games",
     description:
       "An intelligent chatbot that can analyze and respond to queries about any website's content when given its URL",
-    technologies: ["Next.js", "AI/ML", "TypeScript", "API Integration"],
-    demoLink: "https://chatbot-plum-ten.vercel.app",
-    githubLink: "https://github.com/morlanandini/chatbot",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "API Integration"],
+    demoLink: "https://2-player-games.vercel.app/",
+    githubLink: "https://github.com/morlanandini/2-player-games",
   },
   {
     title: "AddTips - Social Tips Platform",

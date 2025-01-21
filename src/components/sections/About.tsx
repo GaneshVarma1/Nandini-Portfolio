@@ -233,7 +233,7 @@ const experience = [
     role: "Java J2EE Developer",
     company: "Career Soft Solutions",
     location: "New Jersey",
-    duration: "May 2023 - Present",
+    duration: "Dec 2024 - Present",
     responsibilities: [
       "Developed and maintained enterprise-grade applications using Core Java, ensuring 99% code efficiency.",
       "Enhanced maintainability of applications by 30% through the application of Spring Framework features.",
@@ -253,6 +253,31 @@ const experience = [
       "AWS",
       "Jenkins",
       "Docker",
+    ],
+  },
+  {
+    role: "Founding Software Engineer",
+    company: "Tiny Archives",
+    location: "New York",
+    duration: "June 2024 - Oct 2024",
+    responsibilities: [
+      "Built and optimized web applications for managing archival data, leveraging React, TypeScript, and Tailwind CSS for a scalable front-end architecture.",
+"Collaborated with a team of 6 engineers to design the platform, with minimal response time and improving overall user satisfaction.",
+"Developed back-end services using Python, Django, and AWS (S3, Lambda), focusing on performance and security compliance.",
+"Implemented authentication using AWS Cogntito for safe and secure user verifications. Integrated AWS Cognito with Django framework to simultaneously update passowrds in databse (postgreSQL) and AWS",
+"Implemented version control practices using Git and GitHub, ensuring efficient collaboration and CI/CD pipelines for seamless deployments.",
+"Researched on AWS Bedrock, LLM's and AWS sagemaker to know which is best to develop a chatbot for Tiny Archives. Utilized Scrappy and Beautiful soup for scraping important data from vast training data."
+    ],
+    technologies: [
+      "React.js",
+      "Django",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "AWS",
+      "CI/CD",
+      "Git",
+      "Docker",
+      "TypeScript"
     ],
   },
   {
@@ -276,17 +301,18 @@ const experience = [
     ],
   },
   {
-    role: "Java Developer",
+    role: "Full Stack Developer",
     company: "Virtusa",
     location: "India",
     duration: "Oct 2020 - June 2021",
     responsibilities: [
-      "Designed Java-based applications using OOP principles for enhanced modularity.",
-      "Implemented microservices architecture using Spring Boot.",
+      "Developed a consolidated dashboard to compare the trends, storages, traffic for AWS, GCP and Azure clouds",
+      "Developed responsive UI interface with React.js, CSS, and JavaScript.",
+     "Designed Java-based back-end applications using spring boot for enhanced modularity.",
       "Leveraged AWS services to improve scalability and application availability.",
-      "Developed responsive UI interfaces with Angular, CSS, and JavaScript.",
+      "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
     ],
-    technologies: ["Java", "Spring Boot", "AWS", "HTML", "CSS", "JavaScript"],
+    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript"],
   },
 ];
 
@@ -295,7 +321,7 @@ const education = [
     type: "degree",
     degree: "Master's degree in Computer Science",
     school: "State University of New York (SUNY), New Paltz",
-    duration: "August 2022 - May 2023",
+    duration: "August 2022 - May 2024",
     achievements: [
       "Graduated with the Outstanding Graduate Award.",
       "Teaching Assistant for all four semesters, mentoring students and leading workshops.",
@@ -313,28 +339,13 @@ const education = [
 const certifications = [
   {
     type: "certification",
-    name: "AWS Certified Solutions Architect – Associate",
-    organization: "Amazon Web Services (AWS)",
-    issuedDate: "June 2023",
+    name: "Oracle certified Professional Java SE 11 Developer ",
+    organization: "Oracle",
+    issuedDate: "Sept 2021",
     description:
-      "Validated expertise in designing and deploying scalable systems on AWS.",
+      "Validated expertise in core java.",
   },
-  {
-    type: "certification",
-    name: "Certified Kubernetes Administrator (CKA)",
-    organization: "Cloud Native Computing Foundation",
-    issuedDate: "April 2023",
-    description:
-      "Demonstrated proficiency in managing Kubernetes clusters for production environments.",
-  },
-  {
-    type: "certification",
-    name: "Microsoft Certified: Azure Developer Associate",
-    organization: "Microsoft",
-    issuedDate: "December 2022",
-    description:
-      "Specialized in building, testing, and maintaining cloud applications using Azure services.",
-  },
+  
 ];
 
 const About = () => {
@@ -354,8 +365,6 @@ const About = () => {
           className="mb-12"
         >
           <h2 className="text-center text-3xl font-bold">About Me</h2>
-          <p className="mt-10">I am a passionate full stack developer with over 4 years of experience in building scalable applications for complex problems. In these 4 years, I’ve gained hands on experience in backend frameworks like Django(python), Spring Boot, Spring Security and Hibernate ORM. For Instance, in my current role at Lowes, I played a crucial role in migrating monolithic application to micro services architecture using Spring Boot which improved scalability by 20%. Also, security was our main priority, for that I Implemented secure, stateless authentication using OAuth version 2.0 & spring security. Not only backend, I am also well versed in frontend, I’ve built dynamic user interfaces using React.js and implemented server side rendering that improved the performance of the website. Cloud computing is another area where I thrive. At Lowe’s, I designed and deployed scalable, cloud-native solutions on AWS, including EC2 and Lambda. This effort enabled seamless scaling during peak traffic and improved infrastructure efficiency by 50%. In addition to development, I actively mentor junior team members, sharing best practices and helping them grow technically. I’ve also worked cross-functionally with devops and testing teams to deliver high quality applications. 
-      </p>
         </motion.div>
 
         {/* Introduction Section */}
@@ -375,7 +384,7 @@ const About = () => {
               technologies.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Currently working as a Java J2EE Developer at Lowe's, I focus on
+              Currently working as a Full Stack Developer at CSS, I focus on
               developing high-performance applications and microservices. My
               expertise spans both front-end and back-end development, with a
               strong foundation in cloud technologies and DevOps practices.
@@ -386,7 +395,7 @@ const About = () => {
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="rounded-lg bg-background/50 p-6 backdrop-blur">
                   <h4 className="mb-4 text-xl font-semibold">
-                    Recent Highlights at Lowe's
+                    Recent Highlights
                   </h4>
                   <ul className="space-y-2 text-left text-muted-foreground">
                     <li className="flex items-start">
@@ -413,10 +422,10 @@ const About = () => {
                     <li className="flex items-start">
                       <span className="mr-2">•</span>
                       <span>
-                        Integrated Kafka for real-time data flow, enhancing
-                        messaging efficiency within microservices.
+                        Designed and implemented front-end for a startup called Tiny Archives.
                       </span>
                     </li>
+
                   </ul>
                 </div>
 
@@ -443,7 +452,7 @@ const About = () => {
                     <li className="flex items-start">
                       <span className="mr-2">•</span>
                       <span>
-                        Completed advanced coursework in Distributed Systems,
+                        Completed advanced coursework in Cyber Security, Artificial Intelligence, 
                         Cloud Computing, and Machine Learning algorithms.
                       </span>
                     </li>
@@ -462,7 +471,7 @@ const About = () => {
             {/* Collaboration Statement */}
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground font-semibold">
               I am open to collaborating on innovative projects and sharing
-              insights on full-stack development, back-end architecture, and
+              insights on full-stack development, LLM's , Computer Vision and
               emerging technologies. I aim to contribute to impactful projects
               that leverage my technical expertise and problem-solving skills.
             </p>
