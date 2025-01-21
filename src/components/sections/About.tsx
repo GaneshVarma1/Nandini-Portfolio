@@ -231,8 +231,8 @@ const skills = [
 const experience = [
   {
     role: "Java J2EE Developer",
-    company: "Lowe's",
-    location: "Mooresville, NC",
+    company: "Career Soft Solutions",
+    location: "New Jersey",
     duration: "May 2023 - Present",
     responsibilities: [
       "Developed and maintained enterprise-grade applications using Core Java, ensuring 99% code efficiency.",
