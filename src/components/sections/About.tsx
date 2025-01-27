@@ -230,20 +230,17 @@ const skills = [
 
 const experience = [
   {
-    role: "Java J2EE Developer",
+    role: "Full Stack Engineer",
     company: "Career Soft Solutions",
     location: "New Jersey",
     duration: "Dec 2024 - Present",
     responsibilities: [
-      "Developed and maintained enterprise-grade applications using Core Java, ensuring 99% code efficiency.",
-      "Enhanced maintainability of applications by 30% through the application of Spring Framework features.",
-      "Optimized database operations using Hibernate ORM, reducing data access time by 25%.",
-      "Utilized both MongoDB and Postgres to accomdate both structured and unstructured data flow.",
-      "Designed and implemented scalable microservices using Spring Boot.",
-      "Exposed RESTful APIs to integrate front-end systems and third-party services.",
-      "Utilized AWS services (EC2, Lambda, RDS, S3) for cloud-native application design.",
-      "Established CI/CD pipelines with Jenkins and Docker for streamlined application deployment.",
-    ],
+      "Provide assistance with internal application problem analysis, technical solutions/alternatives, evaluating   design proposals, and reviewing program code.",
+      "Assists with a variety of department and company- wide projects to develop scalable web applications.",
+      "Translatating designs and wireframes into high-quality React.js code and optimizing react components for maximum performance across a vast array of web-capable devices and browsers.",
+      "Designing and implementing robust backend components using MongoDb and MySQL database.",
+      "Building and Deploying applications using CI/CD pipelines, in Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
+      "Improving reliability and scaling of new and existing systems using AWS and redis"    ],
     technologies: [
       "Java",
       "Spring Framework",
@@ -286,6 +283,7 @@ const experience = [
     location: "India",
     duration: "July 2021 - Aug 2022",
     responsibilities: [
+      "Designed and implemented a scalable ticketing platform for Citibank, improving performance by 12% and enabling faster IT issue resolution.",
       "Developed an internal ticketing CRUD application using spring boot, hibernate ORM and REST API's",
       "Created responsive front-end applications with React.js, javascript and tailwind CSS.",
       "Built and deployed cloud-based applications on AWS services.",
@@ -304,10 +302,11 @@ const experience = [
     role: "Full Stack Developer",
     company: "Virtusa",
     location: "India",
-    duration: "Oct 2020 - June 2021",
+    duration: "June 2020 - July 2021",
     responsibilities: [
-      "Developed a consolidated dashboard to compare the trends, storages, traffic for AWS, GCP and Azure clouds",
-      "Developed responsive UI interface with React.js, CSS, and JavaScript.",
+      "Developed a consolidated dashboard to compare trends, storage utilization, and traffic across AWS, GCP, and Azure clouds, improving cross-cloud visibility by 40%.",
+      "Built a responsive UI using React.js, CSS, and JavaScript, enhancing user experience and reducing load times by 25%. ",
+           "Developed responsive UI interface with React.js, CSS, and JavaScript.",
      "Designed Java-based back-end applications using spring boot for enhanced modularity.",
       "Leveraged AWS services to improve scalability and application availability.",
       "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
@@ -331,7 +330,7 @@ const education = [
     type: "degree",
     degree: "Bachelor's degree in Computer Science",
     school: "MLR Institute of Technology",
-    duration: "August 2017 - July 2021",
+    duration: "August 2016 - July 2020",
     achievements: [],
   },
 ];
