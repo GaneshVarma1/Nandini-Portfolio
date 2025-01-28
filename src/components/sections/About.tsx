@@ -233,11 +233,11 @@ const experience = [
     role: "Full Stack Engineer",
     company: "Career Soft Solutions",
     location: "New Jersey",
-    duration: "Dec 2024 - Present",
+    duration: "June 2023 - Present",
     responsibilities: [
       "Provide assistance with internal application problem analysis, technical solutions/alternatives, evaluating   design proposals, and reviewing program code.",
       "Assists with a variety of department and company- wide projects to develop scalable web applications.",
-      "Translatating designs and wireframes into high-quality React.js code and optimizing react components for maximum performance across a vast array of web-capable devices and browsers.",
+      "Translatating designs and wireframes into high-quality Next.js code and optimizing components for maximum performance across a vast array of web-capable devices and browsers.",
       "Designing and implementing robust backend components using MongoDb and MySQL database.",
       "Building and Deploying applications using CI/CD pipelines, in Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
       "Improving reliability and scaling of new and existing systems using AWS and redis"    ],
@@ -306,7 +306,7 @@ const experience = [
     responsibilities: [
       "Developed a consolidated dashboard to compare trends, storage utilization, and traffic across AWS, GCP, and Azure clouds, improving cross-cloud visibility by 40%.",
       "Built a responsive UI using React.js, CSS, and JavaScript, enhancing user experience and reducing load times by 25%. ",
-           "Developed responsive UI interface with React.js, CSS, and JavaScript.",
+      "Developed responsive UI interface with React.js, CSS, and JavaScript.",
      "Designed Java-based back-end applications using spring boot for enhanced modularity.",
       "Leveraged AWS services to improve scalability and application availability.",
       "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
@@ -320,7 +320,7 @@ const education = [
     type: "degree",
     degree: "Master's degree in Computer Science",
     school: "State University of New York (SUNY), New Paltz",
-    duration: "August 2022 - May 2024",
+    duration: "August 2022 - May 2023",
     achievements: [
       "Graduated with the Outstanding Graduate Award.",
       "Teaching Assistant for all four semesters, mentoring students and leading workshops.",
