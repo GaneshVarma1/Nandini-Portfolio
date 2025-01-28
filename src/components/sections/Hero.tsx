@@ -83,14 +83,7 @@ function Hero() {
               href="https://drive.google.com/file/d/1KLexDkcr9fSnIMektSv27unj5w6Zwkhm/view?usp=sharing"
               target="_blank"
             >
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex items-center gap-2"
-              >
-                Resume
-                <Download />
-              </Button>
+        
             </a>
           </div>
         </div>
