@@ -61,18 +61,6 @@ function Hero() {
             "I build scalable systems and craft intuitive designs, empowering
             brands with innovation and technology 🚀✨."
           </p>
-          <h5 className="md:text-md mx-auto mb-10 mt-1 max-w-2xl px-6 text-sm text-primary/60 sm:px-6 md:max-w-4xl md:px-20 lg:text-lg">
-            "Helping in Building{" "}
-            <a
-              href="https://reactwind.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              @Reactwind
-            </a>
-            "
-          </h5>
           <div className="flex justify-center gap-2">
             <a href="#projects">
               <Button variant="default" size="lg">

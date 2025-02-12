@@ -320,7 +320,7 @@ const education = [
     type: "degree",
     degree: "Master's degree in Computer Science",
     school: "State University of New York (SUNY), New Paltz",
-    duration: "August 2022 - May 2023",
+    duration: "",
     achievements: [
       "Graduated with the Outstanding Graduate Award.",
       "Teaching Assistant for all four semesters, mentoring students and leading workshops.",
@@ -330,7 +330,7 @@ const education = [
     type: "degree",
     degree: "Bachelor's degree in Computer Science",
     school: "MLR Institute of Technology",
-    duration: "August 2016 - July 2020",
+    duration: "",
     achievements: [],
   },
 ];

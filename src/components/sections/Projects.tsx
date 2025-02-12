@@ -13,11 +13,19 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Personal Assistant chatbot",
+    description:
+      "Build an interactive and intelligent chatbot using Ollama's powerful language models, seamlessly integrated with Streamlit's easy-to-use framework for creating beautiful web applications. This chatbot allows real-time conversations, providing users with quick and accurate responses. Leveraging Ollama's natural language processing capabilities and Streamlit's dynamic interface, this solution delivers a smooth and engaging user experience for diverse use cases.",
+    technologies: ["LangChain", "Streamlit", "Ollama"],
+    demoLink: "https://drive.google.com/file/d/1jLqrZ_3Az8am1GFKkZbAxtiRNilo_--p/view?usp=sharing",
+    githubLink: "https://github.com/morlanandini/chatbot_streamlit_ollama",
+  },
+  {
     title: "SheNeeds - E-commerce Website",
     description:
       "A full-stack e-commerce platform built with Next.js and integrated database for product and image management",
     technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
-    demoLink: "https://ecommerce-website-she-needs.vercel.app",
+    demoLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     githubLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
   },
   {
@@ -41,7 +49,7 @@ const projects = [
     description:
       "A responsive expense tracking application built with React and TypeScript for managing personal finances",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    demoLink: "https://expense-tracker-morlanandini.vercel.app",
+    demoLink: "https://github.com/morlanandini/expense-tracker",
     githubLink: "https://github.com/morlanandini/expense-tracker",
   },
   {
