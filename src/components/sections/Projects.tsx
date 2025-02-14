@@ -83,7 +83,7 @@ const projects = [
     demoLink: "https://memory-game-xi-black.vercel.app",
     githubLink: "https://github.com/morlanandini/memory-game",
     image: "/images/memory-game.png",
-    video : "/images/final.mov"
+    video : "/images/memory-game.mov"
 
   },
 ];
