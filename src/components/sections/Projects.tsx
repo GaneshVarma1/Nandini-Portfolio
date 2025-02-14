@@ -13,12 +13,24 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Ask Questions from your PDF",
+    description:
+        "I built an AI-powered PDF Chat Assistant that enables users to upload PDF documents and interact with the content through natural language queries. The application uses LangChain, Ollama, and a locally hosted LLaMA 3 model to process and analyze the text from PDFs, providing context-aware responses in real-time.",
+    technologies: ["Python", "Streamlit", "LangChain", "Ollama", "PyMuPDF", "TikToken","LLaMA"],
+    demoLink: "https://drive.google.com/file/d/1jLqrZ_3Az8am1GFKkZbAxtiRNilo_--p/view?usp=sharing",
+    githubLink: "https://github.com/morlanandini/chatbot_streamlit_ollama",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/pdf_final.mov"
+  },
+  {
     title: "Personal Assistant chatbot",
     description:
-      "Build an interactive and intelligent chatbot using Ollama's powerful language models, seamlessly integrated with Streamlit's easy-to-use framework for creating beautiful web applications. This chatbot allows real-time conversations, providing users with quick and accurate responses. Leveraging Ollama's natural language processing capabilities and Streamlit's dynamic interface, this solution delivers a smooth and engaging user experience for diverse use cases.",
+      "Build an interactive and intelligent chatbot using Ollama's powerful language models, seamlessly integrated with Streamlit's easy-to-use framework for creating beautiful web applications. This chatbot allows real-time conversations, providing users with quick and accurate responses.",
     technologies: ["LangChain", "Streamlit", "Ollama"],
     demoLink: "https://drive.google.com/file/d/1jLqrZ_3Az8am1GFKkZbAxtiRNilo_--p/view?usp=sharing",
     githubLink: "https://github.com/morlanandini/chatbot_streamlit_ollama",
+    image: "/images/personal-assistant.png",
+    video : "/images/final.mov"
   },
   {
     title: "SheNeeds - E-commerce Website",
@@ -27,6 +39,8 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
     demoLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     githubLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/she_needs.mov"
   },
   {
     title: "Arena Games",
@@ -35,6 +49,9 @@ const projects = [
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "API Integration"],
     demoLink: "https://2-player-games.vercel.app/",
     githubLink: "https://github.com/morlanandini/2-player-games",
+    image: "https://www.pexels.com/search/beautiful/",
+    video : "/images/final.mov",
+
   },
   {
     title: "AddTips - Social Tips Platform",
@@ -43,6 +60,9 @@ const projects = [
     technologies: ["Next.js", "PostgreSQL", "Auth", "Tailwind CSS"],
     demoLink: "https://addtips.vercel.app",
     githubLink: "https://github.com/morlanandini/addtips",
+    image: "/images/addtips.png",
+    video : "/images/final.mov"
+
   },
   {
     title: "Expense Tracker",
@@ -51,6 +71,9 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     demoLink: "https://github.com/morlanandini/expense-tracker",
     githubLink: "https://github.com/morlanandini/expense-tracker",
+    image: "/images/expense-tracker.png",
+    video : "/images/final.mov"
+
   },
   {
     title: "Memory Game",
@@ -59,6 +82,9 @@ const projects = [
     technologies: ["React", "JavaScript", "CSS"],
     demoLink: "https://memory-game-xi-black.vercel.app",
     githubLink: "https://github.com/morlanandini/memory-game",
+    image: "/images/memory-game.png",
+    video : "/images/final.mov"
+
   },
 ];
 
@@ -76,6 +102,15 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="h-full">
+                {/* <img src={project.image} alt={project.title} className="w-full h-128 object-cover rounded-t-lg" /> */}
+                <video
+                    src={project.video}
+                    className="w-full h-64 object-cover rounded-t-lg"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
