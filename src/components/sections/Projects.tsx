@@ -50,7 +50,7 @@ const projects = [
     demoLink: "https://2-player-games.vercel.app/",
     githubLink: "https://github.com/morlanandini/2-player-games",
     image: "https://www.pexels.com/search/beautiful/",
-    video : "/images/final.mov",
+    video : "/images/arena-games.mov",
 
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     demoLink: "https://addtips.vercel.app",
     githubLink: "https://github.com/morlanandini/addtips",
     image: "/images/addtips.png",
-    video : "/images/final.mov"
+    video : "/images/tips.mov"
 
   },
   {
