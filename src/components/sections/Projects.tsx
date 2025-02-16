@@ -20,7 +20,7 @@ const projects = [
     demoLink: "https://take-break-phi.vercel.app/",
     githubLink: "https://github.com/morlanandini/take-a-break",
     image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
-    video : "/images/take-a-break.mov"
+    video : "/images/take_a_break.mov"
   },
   {
     title: "Plantify E-commerce website",
