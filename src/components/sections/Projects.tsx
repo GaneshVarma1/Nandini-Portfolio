@@ -13,6 +13,26 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Take a break website",
+    description:
+"Take a Break is your personalized relaxation companion designed to help you recharge during busy workdays. The app asks you 5 quick questions about your work style, stress levels, and preferred break activities. Using your responses, it curates a tailored music therapy session to help you unwind, refocus, and stay productive. Whether you need calming tunes for a quick breather or energizing beats to power through your tasks, Take a Break offers the perfect escape, one song at a time.",
+    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Shadcn/UI Components", "Vercel Deployment"],
+    demoLink: "https://take-break-phi.vercel.app/",
+    githubLink: "https://github.com/morlanandini/take-a-break",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/take-a-break.mov"
+  },
+  {
+    title: "Plantify E-commerce website",
+    description:
+        "Plantify is a modern e-commerce platform that bridges the gap between technology and nature, making indoor plants more accessible and affordable for everyone. Built with Next.js and cutting-edge web technologies, this platform offers a seamless shopping experience for plant enthusiasts.",
+    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Shadcn/UI Components", "Server Actions", "Vercel Deployment"],
+    demoLink: "https://plantify-ecommerce-tau.vercel.app/",
+    githubLink: "https://github.com/morlanandini/plantify_ecommerce",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/plantify.mov"
+  },
+  {
     title: "Ask Questions from your PDF",
     description:
         "I built an AI-powered PDF Chat Assistant that enables users to upload PDF documents and interact with the content through natural language queries. The application uses LangChain, Ollama, and a locally hosted LLaMA 3 model to process and analyze the text from PDFs, providing context-aware responses in real-time.",
