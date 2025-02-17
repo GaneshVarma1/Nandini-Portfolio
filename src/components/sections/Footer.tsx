@@ -17,7 +17,7 @@ export function Footer() {
               <Mail className="h-6 w-6" />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/morlanandini"
               target="_blank"
               rel="noreferrer"
               className="hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ export function Footer() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/morla-nandini"
               target="_blank"
               rel="noreferrer"
               className="hover:text-primary transition-colors"

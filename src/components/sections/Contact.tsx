@@ -26,7 +26,7 @@ export function Contact() {
               Email Me
             </Button>
           </a>
-          <a href="tel:+1234567890" className="w-full md:w-auto">
+          <a href="tel:+13854649601" className="w-full md:w-auto">
             <Button
               variant="outline"
               className="w-full md:w-auto flex gap-2 justify-center"
@@ -54,14 +54,14 @@ export function Contact() {
           >
             <Instagram size={28} />
           </a>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1KLexDkcr9fSnIMektSv27unj5w6Zwkhm/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
           >
             <FileDown size={28} />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

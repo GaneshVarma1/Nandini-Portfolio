@@ -242,14 +242,13 @@ const experience = [
       "Building and Deploying applications using CI/CD pipelines, in Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
       "Improving reliability and scaling of new and existing systems using AWS and redis"    ],
     technologies: [
-      "Java",
-      "Spring Framework",
-      "Spring Boot",
-      "Hibernate",
-      "RESTful APIs",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "MySQL",
       "AWS",
-      "Jenkins",
-      "Docker",
+      "Redis"
     ],
   },
   {
@@ -283,11 +282,11 @@ const experience = [
     location: "India",
     duration: "July 2021 - Aug 2022",
     responsibilities: [
-      "Designed and implemented a scalable ticketing platform for Citibank, improving performance by 12% and enabling faster IT issue resolution.",
-      "Developed an internal ticketing CRUD application using spring boot, hibernate ORM and REST API's",
-      "Created responsive front-end applications with React.js, javascript and tailwind CSS.",
-      "Built and deployed cloud-based applications on AWS services.",
-      "Established and maintained CI/CD pipelines with Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
+      "Worked with a team of five in redesigning a monolithic application into a micro-frontend architecture using React achieving a 30% performance boost.",
+      "Implemented a serverless architecture to optimize resource utilization and operational efficiency, reducing deployment costs by 30% .",
+      "Optimized front-end performance using React and Redux, ensuring compliance with WCAG accessibility guidelines, which improved the platform’s accessibility score by 15% and significantly enhanced user-friendliness for all clients.",
+      "Built and optimized RESTful APIs for real-time financial data processing in Spring Boot, leveraging efficient database design in PostgreSQL and MongoDB, leading to a 20% improvement in query response times.",
+      "Implemented Kafka for real-time transaction processing, ensuring seamless integration of high-volume financial data across multiple services, improving data consistency and system reliability.",
     ],
     technologies: [
       "Spring Boot Framework",
@@ -296,6 +295,12 @@ const experience = [
       "AWS",
       "DevOPS",
       "Hibernate ORM",
+      "Kafka",
+      "PostgreSQL",
+      "MongoDB",
+      "Redux",
+      "TypeScript",
+      
     ],
   },
   {
@@ -311,7 +316,7 @@ const experience = [
       "Leveraged AWS services to improve scalability and application availability.",
       "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
     ],
-    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript"],
+    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript", "TypeScript", "Redux", "Kafka", "PostgreSQL", "MongoDB"],
   },
 ];
 
