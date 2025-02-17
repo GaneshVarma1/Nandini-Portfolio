@@ -57,7 +57,7 @@ const projects = [
     description:
       "A full-stack e-commerce platform built with Next.js and integrated database for product and image management",
     technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
-    demoLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
+    // demoLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     githubLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
     video : "/images/she_needs.mov"
@@ -84,6 +84,25 @@ const projects = [
     video : "/images/tips.mov"
 
   },
+  {
+    title: "Pridiction of crude oil price using Ensemble Learning",
+    description:
+      "A machine learning project utilizing ensemble learning techniques such as Random Forest Regression, Decision Tree Regression, Linear Regression, and Support Vector Regression to predict future crude oil prices based on historical data. Built with Python, Django, and machine learning libraries, the project includes a user-friendly web interface for easy interaction with the model and provides accurate price predictions to assist in financial decision-making.",
+    technologies: ["Python", "Django", "Scikit-Learn", "Pandas"," NumPy", "Matplotlib"   ],
+    demoLink: "https://drive.google.com/file/d/13vsHEJZqGrBa4p_9-CLRo_D5sChEfdd4/view?usp=drive_link",
+    githubLink: "https://github.com/morlanandini/predict_crude_oil_prices",
+    image: "/images/expense-tracker.png",
+    video : "/images/nandini-portfolio.mp4"
+
+  },
+  {
+    "title": "Hybrid Image Creation Using OpenCV and NumPy",
+    "description": "An image processing project that creates a hybrid image by applying high-pass and low-pass filters to two input images using OpenCV and NumPy. This technique combines low-frequency components from one image and high-frequency details from another, resulting in an image that changes based on viewing distance.",
+    "technologies": ["OpenCV", "NumPy", "Python", "Matplotlib"],
+    "githubLink": "https://github.com/morlanandini/image_processing_projects",
+    "image": "/images/hybrid-image.png",
+    "video": "/images/hybrid_images.mov"
+  },  
   {
     title: "Expense Tracker",
     description:
