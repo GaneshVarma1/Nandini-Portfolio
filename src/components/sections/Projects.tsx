@@ -17,7 +17,7 @@ const categories = ["All", "Image Processing", "Web Development", "ML/AI"];
 const projects = [
   {
     title: "Keywords generation for YouTube Videos",
-    category: "AI/ML",
+    category: "ML/AI",
     description:
       "This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. The user-friendly Streamlit interface ensures seamless interaction for content creators and marketers. 🚀",
     technologies: ["Python", "Streamlit", "LangChain", "Ollama", "PyMuPDF", "TikToken","LLaMA"],
