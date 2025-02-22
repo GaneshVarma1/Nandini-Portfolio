@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Card,
@@ -12,33 +11,29 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
-const categories = ["All", "Image Processing", "Web Development", "ML/AI"];
-
 const projects = [
   {
     title: "Keywords generation for YouTube Videos",
-    category: "ML/AI",
     description:
-      "This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. The user-friendly Streamlit interface ensures seamless interaction for content creators and marketers. 🚀",
-    technologies: ["Python", "Streamlit", "LangChain", "Ollama", "PyMuPDF", "TikToken","LLaMA"],
-    demoLink: "https://drive.google.com/file/d/19dkoGHNv3P9XM_qoNquWxE1Av5ZOQQeT/view?usp=sharing",
-    githubLink: "https://github.com/morlanandini/generate_seo_keywords_for_videos/",
-    video: "/images/keywords.mov",
+"This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. The user-friendly Streamlit interface ensures seamless interaction for content creators and marketers. 🚀",
+    technologies: ["LangChain", "Whisper", "FFmpeg", "MoviePy", "Streamlit", "python"],
+    demoLink: "",
+    githubLink: "https://drive.google.com/file/d/19dkoGHNv3P9XM_qoNquWxE1Av5ZOQQeT/view",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/keywords.mov"
   },
   {
     title: "Take a break website",
-    category: "Web Development",
     description:
-      "Take a Break is your personalized relaxation companion designed to help you recharge during busy workdays. Its a A mindful productivity tool that combines:Customizable break timers, Soothing lofi music player, Dark mode support, Local storage for your preferences, Clean, responsive design",
-    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS"],
+"Take a Break is your personalized relaxation companion designed to help you recharge during busy workdays. The app asks you 5 quick questions about your work style, stress levels, and preferred break activities. Using your responses, it curates a tailored music therapy session to help you unwind, refocus, and stay productive. Whether you need calming tunes for a quick breather or energizing beats to power through your tasks, Take a Break offers the perfect escape, one song at a time.",
+    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Shadcn/UI Components", "Vercel Deployment"],
     demoLink: "https://take-break-phi.vercel.app/",
     githubLink: "https://github.com/morlanandini/take-a-break",
-    video: "/images/take_a_break.mov",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/take_a_break.mov"
   },
- 
   {
     title: "Plantify E-commerce website",
-    category: "Web Development",
     description:
         "Plantify is a modern e-commerce platform that bridges the gap between technology and nature, making indoor plants more accessible and affordable for everyone. Built with Next.js and cutting-edge web technologies, this platform offers a seamless shopping experience for plant enthusiasts.",
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Shadcn/UI Components", "Server Actions", "Vercel Deployment"],
@@ -49,7 +44,6 @@ const projects = [
   },
   {
     title: "Ask Questions from your PDF",
-    category: "ML/AI",
     description:
         "I built an AI-powered PDF Chat Assistant that enables users to upload PDF documents and interact with the content through natural language queries. The application uses LangChain, Ollama, and a locally hosted LLaMA 3 model to process and analyze the text from PDFs, providing context-aware responses in real-time.",
     technologies: ["Python", "Streamlit", "LangChain", "Ollama", "PyMuPDF", "TikToken","LLaMA"],
@@ -60,7 +54,6 @@ const projects = [
   },
   {
     title: "Personal Assistant chatbot",
-    category: "ML/AI",
     description:
       "Build an interactive and intelligent chatbot using Ollama's powerful language models, seamlessly integrated with Streamlit's easy-to-use framework for creating beautiful web applications. This chatbot allows real-time conversations, providing users with quick and accurate responses.",
     technologies: ["LangChain", "Streamlit", "Ollama"],
@@ -71,7 +64,6 @@ const projects = [
   },
   {
     title: "SheNeeds - E-commerce Website",
-    category: "Web Development",
     description:
       "A full-stack e-commerce platform built with Next.js and integrated database for product and image management",
     technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
@@ -82,7 +74,6 @@ const projects = [
   },
   {
     title: "Arena Games",
-    category: "Web Development",
     description:
       "An intelligent chatbot that can analyze and respond to queries about any website's content when given its URL",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "API Integration"],
@@ -94,7 +85,6 @@ const projects = [
   },
   {
     title: "AddTips - Social Tips Platform",
-    category: "Web Development",
     description:
       "A social platform where users can share and discover tips, featuring user authentication and PostgreSQL database",
     technologies: ["Next.js", "PostgreSQL", "Auth", "Tailwind CSS"],
@@ -105,17 +95,7 @@ const projects = [
 
   },
   {
-    title: "Hybrid Image Creation Using OpenCV and NumPy",
-    category: "Image Processing",
-    description:
-      "An image processing project that creates a hybrid image using OpenCV and NumPy.",
-    technologies: ["OpenCV", "NumPy", "Python", "Matplotlib"],
-    githubLink: "https://github.com/morlanandini/image_processing_projects",
-    video: "/images/hybrid_images.mov",
-  },
-  {
     title: "Pridiction of crude oil price using Ensemble Learning",
-    category: "ML/AI",
     description:
       "A machine learning project utilizing ensemble learning techniques such as Random Forest Regression, Decision Tree Regression, Linear Regression, and Support Vector Regression to predict future crude oil prices based on historical data. Built with Python, Django, and machine learning libraries, the project includes a user-friendly web interface for easy interaction with the model and provides accurate price predictions to assist in financial decision-making.",
     technologies: ["Python", "Django", "Scikit-Learn", "Pandas"," NumPy", "Matplotlib"   ],
@@ -125,10 +105,16 @@ const projects = [
     video : "/images/nandini-portfolio.mp4"
 
   },
- 
+  {
+    "title": "Hybrid Image Creation Using OpenCV and NumPy",
+    "description": "An image processing project that creates a hybrid image by applying high-pass and low-pass filters to two input images using OpenCV and NumPy. This technique combines low-frequency components from one image and high-frequency details from another, resulting in an image that changes based on viewing distance.",
+    "technologies": ["OpenCV", "NumPy", "Python", "Matplotlib"],
+    "githubLink": "https://github.com/morlanandini/image_processing_projects",
+    "image": "/images/hybrid-image.png",
+    "video": "/images/hybrid_images.mov"
+  },  
   {
     title: "Expense Tracker",
-    category: "Web Development",
     description:
       "A responsive expense tracking application built with React and TypeScript for managing personal finances",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
@@ -140,7 +126,6 @@ const projects = [
   },
   {
     title: "Memory Game",
-    category: "Web Development",
     description:
       "An interactive memory card game with image flipping mechanics and score tracking",
     technologies: ["React", "JavaScript", "CSS"],
@@ -153,32 +138,12 @@ const projects = [
 ];
 
 const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
-
-  const filteredProjects =
-    selectedCategory === "All"
-      ? projects
-      : projects.filter((project) => project.category === selectedCategory);
-
   return (
     <section id="projects" className="relative py-20">
       <div className="container mx-auto px-4">
         <h2 className="mb-8 text-center text-3xl font-bold">My Projects</h2>
-
-        <div className="flex justify-center gap-4 mb-6">
-          {categories.map((cat) => (
-            <Button
-              key={cat}
-              variant={selectedCategory === cat ? "default" : "outline"}
-              onClick={() => setSelectedCategory(cat)}
-            >
-              {cat}
-            </Button>
-          ))}
-        </div>
-
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {filteredProjects.map((project, index) => (
+          {projects.map((project, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
@@ -186,14 +151,15 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="h-full">
+                {/* <img src={project.image} alt={project.title} className="w-full h-128 object-cover rounded-t-lg" /> */}
                 <video
-                  src={project.video}
-                  className="w-full h-64 object-cover rounded-t-lg"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                />
+                    src={project.video}
+                    className="w-full h-64 object-cover rounded-t-lg"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
@@ -239,3 +205,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
