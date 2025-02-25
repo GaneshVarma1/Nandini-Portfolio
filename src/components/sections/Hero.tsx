@@ -58,8 +58,7 @@ function Hero() {
           </h1>
 
           <p className="md:text-md mx-auto mb-6 mt-2 max-w-2xl px-6 text-sm text-primary/60 sm:px-6 md:max-w-4xl md:px-20 lg:text-lg">
-            "I build scalable systems and craft intuitive designs, empowering
-            brands with innovation and technology 🚀✨."
+            "I’m a problem-solver by day, code-slinger by night. Enjoy exploring my projects!🚀✨."
           </p>
           <div className="flex justify-center gap-2">
             <a href="#projects">

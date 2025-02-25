@@ -56,7 +56,7 @@ const skills = [
   },
   {
     name: "Tailwind CSS",
-    icon: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
   },
   {
     name: "Node.js",
@@ -65,6 +65,10 @@ const skills = [
   {
     name: "Python",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  },
+  {
+    name: "Django",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
   },
   {
     name: "MongoDB",
@@ -126,14 +130,7 @@ const skills = [
     name: "ELK Stack",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg",
   },
-  {
-    name: "Prometheus",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg",
-  },
-  {
-    name: "Grafana",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg",
-  },
+
   {
     name: "TensorFlow",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
@@ -148,16 +145,13 @@ const skills = [
   },
   {
     name: "JUnit",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-original.svg",
   },
   {
     name: "Vercel",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg",
   },
-  {
-    name: "Firebase",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-  },
+
   {
     name: "Redux",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
@@ -167,25 +161,10 @@ const skills = [
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
   },
   {
-    name: "Sass",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-  },
-  {
-    name: "Figma",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-  },
-  {
-    name: "Adobe XD",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg",
-  },
-  {
     name: "Bootstrap",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
   },
-  {
-    name: "Nginx",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg",
-  },
+
   {
     name: "Linux",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
@@ -214,18 +193,8 @@ const skills = [
     name: "Babel",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/babel/babel-original.svg",
   },
-  {
-    name: "Azure DevOps",
-    icon: "https://www.svgrepo.com/show/448271/azure-devops.svg",
-  },
-  {
-    name: "ElasticSearch",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg",
-  },
-  {
-    name: "Kafka",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg",
-  },
+
+
 ];
 
 const experience = [
@@ -239,8 +208,7 @@ const experience = [
       "Assists with a variety of department and company- wide projects to develop scalable web applications.",
       "Translatating designs and wireframes into high-quality Next.js code and optimizing components for maximum performance across a vast array of web-capable devices and browsers.",
       "Designing and implementing robust backend components using MongoDb and MySQL database.",
-      "Building and Deploying applications using CI/CD pipelines, in Jenkins, CodeBuild, and CodeDeploy, streamlining code deployment and ensuring quick, reliable releases.",
-      "Improving reliability and scaling of new and existing systems using AWS and redis"    ],
+        ],
     technologies: [
       "Next.js",
       "TypeScript",
@@ -349,6 +317,30 @@ const certifications = [
     description:
       "Validated expertise in core java.",
   },
+  {
+    type: "certification",
+    name: "Python and Django Full Stack Web Developer Bootcamp",
+    organization: "Udemy",
+    issuedDate: "Sept 2020",
+    description:
+      "Learned Python, Django, HTML, CSS, JavaScript, and SQL.",
+  },
+  {
+    type: "certification",
+    name: "SQL for Data Science",
+    organization: "Coursera",
+    issuedDate: "Nov 2020",
+    description:
+      "An online non-credit course authorized by University of California, Davis and offered through Coursera",
+  },
+  {
+    type: "certification",
+    name: "Programming Foundations with JavaScript, HTML and CSS",
+    organization: "Coursera",
+    issuedDate: "May 2020",
+    description:
+      "An online non-credit course authorized by Duke University and offered through Coursera",
+  },
   
 ];
 
@@ -391,7 +383,7 @@ const About = () => {
               Currently working as a Full Stack Developer at CSS, I focus on
               developing high-performance applications and microservices. My
               expertise spans both front-end and back-end development, with a
-              strong foundation in cloud technologies and DevOps practices.
+              building foundation in cloud technologies and LLM's.
             </p>
 
             {/* Key Achievements Section */}
@@ -405,8 +397,13 @@ const About = () => {
                     <li className="flex items-start">
                       <span className="mr-2">•</span>
                       <span>
-                        Developed enterprise-grade applications using Core Java,
-                        achieving high code efficiency and scalability.
+                        Spreadheaded performance improvements in multiple projects using React.js and Next.js boosting the page load time.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2">•</span>
+                      <span>
+                        Designed and implemented front-end for a startup called Tiny Archives.
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -423,12 +420,7 @@ const About = () => {
                         support distributed and scalable architectures.
                       </span>
                     </li>
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        Designed and implemented front-end for a startup called Tiny Archives.
-                      </span>
-                    </li>
+                  
 
                   </ul>
                 </div>

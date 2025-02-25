@@ -84,6 +84,17 @@ const projects = [
 
   },
   {
+    title: "Interesting Blogs about SEO",
+    description:
+      "Checkout my blogs about SEO and Content Writing, You can learn 3 common mistakes in SEO and how to avoid them, 5 unique ways that no-one does to improve website ranking, How to choose relevant Keywords",
+    technologies: ["WebFlow", "SEO", "Content Writing", "Keyword Research"],
+    demoLink: "https://seo-for-beginners-essential-tips-to-boo.webflow.io/all-posts",
+    // githubLink: "https://github.com/morlanandini/2-player-games",
+    image: "https://www.pexels.com/search/beautiful/",
+    video : "/images/seo.mov",
+
+  },
+  {
     title: "AddTips - Social Tips Platform",
     description:
       "A social platform where users can share and discover tips, featuring user authentication and PostgreSQL database",
@@ -113,17 +124,17 @@ const projects = [
     "image": "/images/hybrid-image.png",
     "video": "/images/hybrid_images.mov"
   },  
-  {
-    title: "Expense Tracker",
-    description:
-      "A responsive expense tracking application built with React and TypeScript for managing personal finances",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    demoLink: "https://github.com/morlanandini/expense-tracker",
-    githubLink: "https://github.com/morlanandini/expense-tracker",
-    image: "/images/expense-tracker.png",
-    video : "/images/final.mov"
+  // {
+  //   title: "Expense Tracker",
+  //   description:
+  //     "A responsive expense tracking application built with React and TypeScript for managing personal finances",
+  //   technologies: ["React", "TypeScript", "Tailwind CSS"],
+  //   demoLink: "https://github.com/morlanandini/expense-tracker",
+  //   githubLink: "https://github.com/morlanandini/expense-tracker",
+  //   image: "/images/expense-tracker.png",
+  //   video : "/images/final.mov"
 
-  },
+  // },
   {
     title: "Memory Game",
     description:
