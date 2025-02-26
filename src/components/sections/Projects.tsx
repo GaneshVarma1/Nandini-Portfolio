@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Keywords generation for YouTube Videos",
     description:
-"This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. The user-friendly Streamlit interface ensures seamless interaction for content creators and marketers. 🚀",
+"This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. 🚀",
     technologies: ["LangChain", "Whisper", "FFmpeg", "MoviePy", "Streamlit", "python"],
     demoLink: "",
     githubLink: "https://drive.google.com/file/d/19dkoGHNv3P9XM_qoNquWxE1Av5ZOQQeT/view",
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Take a break website",
     description:
-"Take a Break is your personalized relaxation companion designed to help you recharge during busy workdays. The app asks you 5 quick questions about your work style, stress levels, and preferred break activities. Using your responses, it curates a tailored music therapy session to help you unwind, refocus, and stay productive. Whether you need calming tunes for a quick breather or energizing beats to power through your tasks, Take a Break offers the perfect escape, one song at a time.",
+"Take a Break is your personalized relaxation companion designed to help you recharge during busy workdays. The app asks you 5 quick questions about your work style, stress levels, and preferred break activities. Using your responses, it curates a tailored music therapy session to help you unwind, refocus, and stay productive.",
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Shadcn/UI Components", "Vercel Deployment"],
     demoLink: "https://take-break-phi.vercel.app/",
     githubLink: "https://github.com/morlanandini/take-a-break",
@@ -56,7 +56,7 @@ const projects = [
     title: "Personal Assistant chatbot",
     description:
       "Build an interactive and intelligent chatbot using Ollama's powerful language models, seamlessly integrated with Streamlit's easy-to-use framework for creating beautiful web applications. This chatbot allows real-time conversations, providing users with quick and accurate responses.",
-    technologies: ["LangChain", "Streamlit", "Ollama"],
+    technologies: ["LangChain", "Streamlit", "Ollama", "prompts", "chains", "Chatbot"],
     demoLink: "https://drive.google.com/file/d/1jLqrZ_3Az8am1GFKkZbAxtiRNilo_--p/view?usp=sharing",
     githubLink: "https://github.com/morlanandini/chatbot_streamlit_ollama",
     image: "/images/personal-assistant.png",
@@ -65,8 +65,8 @@ const projects = [
   {
     title: "SheNeeds - E-commerce Website",
     description:
-      "A full-stack e-commerce platform built with Next.js and integrated database for product and image management",
-    technologies: ["Next.js", "TypeScript", "Database", "Tailwind CSS"],
+      "SheNeeds – A full-stack e-commerce platform built with Next.js, TypeScript, and an integrated database for seamless product and image management. Designed with Tailwind CSS for a modern UI, it offers a smooth shopping experience. The platform is also integrated with Stripe for secure and efficient payment processing.",
+    technologies: ["Next.js", "TypeScript", "Sanity", "Tailwind CSS","Stripe", "Authentication"],
     // demoLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     githubLink: "https://github.com/morlanandini/ecommerce-website-SheNeeds",
     image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
@@ -75,8 +75,8 @@ const projects = [
   {
     title: "Arena Games",
     description:
-      "An intelligent chatbot that can analyze and respond to queries about any website's content when given its URL",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "API Integration"],
+      "A 2-player gaming platform built with React and TypeScript, featuring fun and interactive games. Currently, it includes Tic-Tac-Toe and a Memory Game, offering an engaging experience for players. More exciting games can be added to expand the collection! 🎮",
+    technologies: ["React.js", "Tailwind CSS", "TypeScript", "API Integration", "Lucide-React"],
     demoLink: "https://2-player-games.vercel.app/",
     githubLink: "https://github.com/morlanandini/2-player-games",
     image: "https://www.pexels.com/search/beautiful/",
@@ -84,10 +84,21 @@ const projects = [
 
   },
   {
+    title: "Memory Game",
+    description:
+      " An interactive card-matching game built with Next.js and TypeScript, featuring image flipping mechanics and score tracking. Designed for an engaging user experience, players can test and improve their memory skills. The game is styled with Tailwind CSS for a smooth and responsive interface.",
+    technologies: ["NextJS", "TypeScript", "Vercel", "Tailwind CSS", "React Hooks", "Use Effect"],
+    demoLink: "https://memory-game-xi-black.vercel.app",
+    githubLink: "https://github.com/morlanandini/memory-game",
+    image: "/images/memory-game.png",
+    video : "/images/memory-game.mov"
+
+  },
+  {
     title: "Interesting Blogs about SEO",
     description:
-      "Checkout my blogs about SEO and Content Writing, You can learn 3 common mistakes in SEO and how to avoid them, 5 unique ways that no-one does to improve website ranking, How to choose relevant Keywords",
-    technologies: ["WebFlow", "SEO", "Content Writing", "Keyword Research"],
+      "Checkout my blogs about SEO and Content Writing, You can learn 3 common mistakes in SEO and how to avoid them, 5 unique ways that no-one does to improve website ranking, How to choose relevant Keywords, Ten productive tools that can significantly enhance your SEO efforts.",
+    technologies: ["WebFlow", "SEO", "Content Writing", "Keyword Research", "SEO Tools"],
     demoLink: "https://seo-for-beginners-essential-tips-to-boo.webflow.io/all-posts",
     // githubLink: "https://github.com/morlanandini/2-player-games",
     image: "https://www.pexels.com/search/beautiful/",
@@ -97,8 +108,8 @@ const projects = [
   {
     title: "AddTips - Social Tips Platform",
     description:
-      "A social platform where users can share and discover tips, featuring user authentication and PostgreSQL database",
-    technologies: ["Next.js", "PostgreSQL", "Auth", "Tailwind CSS"],
+      "A social platform where users can share and discover tips across various topics. Built with Next.js and styled with Tailwind CSS, it offers a seamless and responsive user experience. The platform features user authentication with Google providers and securely manages data using MongoDB Atlas.",
+    technologies: ["Next.js", "MongoDb Atlas", "Auth", "Tailwind CSS", "Google Providers"],
     demoLink: "https://addtips.vercel.app",
     githubLink: "https://github.com/morlanandini/addtips",
     image: "/images/addtips.png",
@@ -108,7 +119,7 @@ const projects = [
   {
     title: "Pridiction of crude oil price using Ensemble Learning",
     description:
-      "A machine learning project utilizing ensemble learning techniques such as Random Forest Regression, Decision Tree Regression, Linear Regression, and Support Vector Regression to predict future crude oil prices based on historical data. Built with Python, Django, and machine learning libraries, the project includes a user-friendly web interface for easy interaction with the model and provides accurate price predictions to assist in financial decision-making.",
+      "A machine learning project utilizing ensemble learning techniques such as Random Forest Regression, Decision Tree Regression, Linear Regression, and Support Vector Regression to predict future crude oil prices based on historical data. Built with Python, Django, and machine learning libraries.",
     technologies: ["Python", "Django", "Scikit-Learn", "Pandas"," NumPy", "Matplotlib"   ],
     demoLink: "https://drive.google.com/file/d/13vsHEJZqGrBa4p_9-CLRo_D5sChEfdd4/view?usp=drive_link",
     githubLink: "https://github.com/morlanandini/predict_crude_oil_prices",
@@ -118,8 +129,8 @@ const projects = [
   },
   {
     "title": "Hybrid Image Creation Using OpenCV and NumPy",
-    "description": "An image processing project that creates a hybrid image by applying high-pass and low-pass filters to two input images using OpenCV and NumPy. This technique combines low-frequency components from one image and high-frequency details from another, resulting in an image that changes based on viewing distance.",
-    "technologies": ["OpenCV", "NumPy", "Python", "Matplotlib"],
+    "description": "A project that creates a hybrid image by applying high-pass and low-pass filters to two input images using OpenCV and NumPy. This technique combines low-frequency components from one image and high-frequency details from another, resulting in an image that changes based on viewing distance.",
+    "technologies": ["OpenCV", "NumPy", "Python", "Matplotlib", "Gaussian filter", "cv2"],
     "githubLink": "https://github.com/morlanandini/image_processing_projects",
     "image": "/images/hybrid-image.png",
     "video": "/images/hybrid_images.mov"
@@ -135,17 +146,7 @@ const projects = [
   //   video : "/images/final.mov"
 
   // },
-  {
-    title: "Memory Game",
-    description:
-      "An interactive memory card game with image flipping mechanics and score tracking",
-    technologies: ["React", "JavaScript", "CSS"],
-    demoLink: "https://memory-game-xi-black.vercel.app",
-    githubLink: "https://github.com/morlanandini/memory-game",
-    image: "/images/memory-game.png",
-    video : "/images/memory-game.mov"
-
-  },
+  
 ];
 
 const Projects = () => {

@@ -56,7 +56,7 @@ const skills = [
   },
   {
     name: "Tailwind CSS",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
   },
   {
     name: "Node.js",
@@ -216,7 +216,6 @@ const experience = [
       "MongoDB",
       "MySQL",
       "AWS",
-      "Redis"
     ],
   },
   {
@@ -238,9 +237,8 @@ const experience = [
       "Tailwind CSS",
       "PostgreSQL",
       "AWS",
-      "CI/CD",
+      "Beautiful Soup",
       "Git",
-      "Docker",
       "TypeScript"
     ],
   },
@@ -254,20 +252,17 @@ const experience = [
       "Implemented a serverless architecture to optimize resource utilization and operational efficiency, reducing deployment costs by 30% .",
       "Optimized front-end performance using React and Redux, ensuring compliance with WCAG accessibility guidelines, which improved the platform’s accessibility score by 15% and significantly enhanced user-friendliness for all clients.",
       "Built and optimized RESTful APIs for real-time financial data processing in Spring Boot, leveraging efficient database design in PostgreSQL and MongoDB, leading to a 20% improvement in query response times.",
-      "Implemented Kafka for real-time transaction processing, ensuring seamless integration of high-volume financial data across multiple services, improving data consistency and system reliability.",
     ],
     technologies: [
       "Spring Boot Framework",
       "Java EE",
       "React.js",
       "AWS",
-      "DevOPS",
       "Hibernate ORM",
-      "Kafka",
       "PostgreSQL",
       "MongoDB",
       "Redux",
-      "TypeScript",
+      "JavaScript",
       
     ],
   },
@@ -284,7 +279,7 @@ const experience = [
       "Leveraged AWS services to improve scalability and application availability.",
       "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
     ],
-    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript", "TypeScript", "Redux", "Kafka", "PostgreSQL", "MongoDB"],
+    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript", "Redux", "PostgreSQL", "MongoDB"],
   },
 ];
 
