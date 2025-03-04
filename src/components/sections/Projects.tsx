@@ -13,6 +13,16 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "RocketApply paltform",
+    description:
+"A website to Streamline your job search with our AI-powered platform. Create a profile, upload your resume, and let us apply for jobs on your behalf. Effortless applications, smarter job matches—start today and let AI find your next opportunity. Currently under-development, landing page is done!",
+    technologies: ["NextJS", "Tailwind-CSS", "typescript", "react", "Babel", "Vercel"],
+    demoLink: "https://rocket-apply.vercel.app/",
+    githubLink: "https://github.com/morlanandini/rocket_apply",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/rocketapply.mov"
+  },
+  {
     title: "Keywords generation for YouTube Videos",
     description:
 "This project is a YouTube & Local Video SEO Keyword Generator that extracts transcripts from YouTube videos or local video files and generate optimized SEO keywords. It supports both YouTube URLs and local uploads. The generated keywords enhance video discoverability and improve search engine rankings. 🚀",
