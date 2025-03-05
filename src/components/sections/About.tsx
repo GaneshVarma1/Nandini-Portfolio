@@ -204,19 +204,19 @@ const experience = [
     location: "New Jersey",
     duration: "June 2023 - Present",
     responsibilities: [
-      "Provide assistance with internal application problem analysis, technical solutions/alternatives, evaluating   design proposals, and reviewing program code.",
-      "Assists with a variety of department and company- wide projects to develop scalable web applications.",
-      "Translatating designs and wireframes into high-quality Next.js code and optimizing components for maximum performance across a vast array of web-capable devices and browsers.",
-      "Designing and implementing robust backend components using MongoDb and MySQL database.",
+      // "Provide assistance with internal application problem analysis, technical solutions/alternatives, evaluating   design proposals, and reviewing program code.",
+      // "Assists with a variety of department and company- wide projects to develop scalable web applications.",
+      // "Translatating designs and wireframes into high-quality Next.js code and optimizing components for maximum performance across a vast array of web-capable devices and browsers.",
+      // "Designing and implementing robust backend components using MongoDb and MySQL database.",
         ],
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "MongoDB",
-      "MySQL",
-      "AWS",
-    ],
+    // technologies: [
+    //   "Next.js",
+    //   "TypeScript",
+    //   "Tailwind CSS",
+    //   "MongoDB",
+    //   "MySQL",
+    //   "AWS",
+    // ],
   },
   {
     role: "Founding Software Engineer",
@@ -224,23 +224,23 @@ const experience = [
     location: "New York",
     duration: "June 2024 - Oct 2024",
     responsibilities: [
-      "Built and optimized web applications for managing archival data, leveraging React, TypeScript, and Tailwind CSS for a scalable front-end architecture.",
-"Collaborated with a team of 6 engineers to design the platform, with minimal response time and improving overall user satisfaction.",
-"Developed back-end services using Python, Django, and AWS (S3, Lambda), focusing on performance and security compliance.",
-"Implemented authentication using AWS Cogntito for safe and secure user verifications. Integrated AWS Cognito with Django framework to simultaneously update passowrds in databse (postgreSQL) and AWS",
-"Implemented version control practices using Git and GitHub, ensuring efficient collaboration and CI/CD pipelines for seamless deployments.",
-"Researched on AWS Bedrock, LLM's and AWS sagemaker to know which is best to develop a chatbot for Tiny Archives. Utilized Scrappy and Beautiful soup for scraping important data from vast training data."
+//       "Built and optimized web applications for managing archival data, leveraging React, TypeScript, and Tailwind CSS for a scalable front-end architecture.",
+// "Collaborated with a team of 6 engineers to design the platform, with minimal response time and improving overall user satisfaction.",
+// "Developed back-end services using Python, Django, and AWS (S3, Lambda), focusing on performance and security compliance.",
+// "Implemented authentication using AWS Cogntito for safe and secure user verifications. Integrated AWS Cognito with Django framework to simultaneously update passowrds in databse (postgreSQL) and AWS",
+// "Implemented version control practices using Git and GitHub, ensuring efficient collaboration and CI/CD pipelines for seamless deployments.",
+// "Researched on AWS Bedrock, LLM's and AWS sagemaker to know which is best to develop a chatbot for Tiny Archives. Utilized Scrappy and Beautiful soup for scraping important data from vast training data."
     ],
-    technologies: [
-      "React.js",
-      "Django",
-      "Tailwind CSS",
-      "PostgreSQL",
-      "AWS",
-      "Beautiful Soup",
-      "Git",
-      "TypeScript"
-    ],
+    // technologies: [
+    //   "React.js",
+    //   "Django",
+    //   "Tailwind CSS",
+    //   "PostgreSQL",
+    //   "AWS",
+    //   "Beautiful Soup",
+    //   "Git",
+    //   "TypeScript"
+    // ],
   },
   {
     role: "Full Stack Software Engineer",
@@ -248,23 +248,23 @@ const experience = [
     location: "India",
     duration: "July 2021 - Aug 2022",
     responsibilities: [
-      "Worked with a team of five in redesigning a monolithic application into a micro-frontend architecture using React achieving a 30% performance boost.",
-      "Implemented a serverless architecture to optimize resource utilization and operational efficiency, reducing deployment costs by 30% .",
-      "Optimized front-end performance using React and Redux, ensuring compliance with WCAG accessibility guidelines, which improved the platform’s accessibility score by 15% and significantly enhanced user-friendliness for all clients.",
-      "Built and optimized RESTful APIs for real-time financial data processing in Spring Boot, leveraging efficient database design in PostgreSQL and MongoDB, leading to a 20% improvement in query response times.",
+      // "Worked with a team of five in redesigning a monolithic application into a micro-frontend architecture using React achieving a 30% performance boost.",
+      // "Implemented a serverless architecture to optimize resource utilization and operational efficiency, reducing deployment costs by 30% .",
+      // "Optimized front-end performance using React and Redux, ensuring compliance with WCAG accessibility guidelines, which improved the platform’s accessibility score by 15% and significantly enhanced user-friendliness for all clients.",
+      // "Built and optimized RESTful APIs for real-time financial data processing in Spring Boot, leveraging efficient database design in PostgreSQL and MongoDB, leading to a 20% improvement in query response times.",
     ],
-    technologies: [
-      "Spring Boot Framework",
-      "Java EE",
-      "React.js",
-      "AWS",
-      "Hibernate ORM",
-      "PostgreSQL",
-      "MongoDB",
-      "Redux",
-      "JavaScript",
+    // technologies: [
+    //   "Spring Boot Framework",
+    //   "Java EE",
+    //   "React.js",
+    //   "AWS",
+    //   "Hibernate ORM",
+    //   "PostgreSQL",
+    //   "MongoDB",
+    //   "Redux",
+    //   "JavaScript",
       
-    ],
+    // ],
   },
   {
     role: "Full Stack Developer",
@@ -272,14 +272,14 @@ const experience = [
     location: "India",
     duration: "June 2020 - July 2021",
     responsibilities: [
-      "Developed a consolidated dashboard to compare trends, storage utilization, and traffic across AWS, GCP, and Azure clouds, improving cross-cloud visibility by 40%.",
-      "Built a responsive UI using React.js, CSS, and JavaScript, enhancing user experience and reducing load times by 25%. ",
-      "Developed responsive UI interface with React.js, CSS, and JavaScript.",
-     "Designed Java-based back-end applications using spring boot for enhanced modularity.",
-      "Leveraged AWS services to improve scalability and application availability.",
-      "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
+    //   "Developed a consolidated dashboard to compare trends, storage utilization, and traffic across AWS, GCP, and Azure clouds, improving cross-cloud visibility by 40%.",
+    //   "Built a responsive UI using React.js, CSS, and JavaScript, enhancing user experience and reducing load times by 25%. ",
+    //   "Developed responsive UI interface with React.js, CSS, and JavaScript.",
+    //  "Designed Java-based back-end applications using spring boot for enhanced modularity.",
+    //   "Leveraged AWS services to improve scalability and application availability.",
+    //   "Utilized AWS dynamoDB, Lambda functions and S3 buckets to fetch and store data from multiple clouds."
     ],
-    technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript", "Redux", "PostgreSQL", "MongoDB"],
+    // technologies: ["Java", "Spring Boot", "AWS", "React.js", "CSS", "JavaScript", "Redux", "PostgreSQL", "MongoDB"],
   },
 ];
 
@@ -404,8 +404,7 @@ const About = () => {
                     <li className="flex items-start">
                       <span className="mr-2">•</span>
                       <span>
-                        Utilized the Spring Framework with dependency injection
-                        to improve flexibility and testability.
+                        Utilized Ollama, LangChain to develop a chatbot.
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -534,13 +533,13 @@ const About = () => {
                         </p>
                       ))}
                     </div>
-                    <div className="mt-4 flex flex-wrap gap-2">
+                    {/* <div className="mt-4 flex flex-wrap gap-2">
                       {item.technologies.map((tech) => (
                         <Badge key={tech} variant="secondary">
                           {tech}
                         </Badge>
                       ))}
-                    </div>
+                    </div> */}
                   </CardContent>
                 </Card>
               ))

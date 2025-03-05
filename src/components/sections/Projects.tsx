@@ -13,6 +13,16 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Resume and JD Match % generator",
+    description:
+"The Resume Matching Analysis Tool analyzes the content of a resume and compares it to a provided JD. It calculates a match % based on overlapping skills, tools, and experiences, and provides suggestions to improve the resume for better alignment with the job requirements.",   
+ technologies: ["Streamlit", "PyMuPDF", "PDFPlumber", "LangChain", "Ollama", "Python"],
+    demoLink: "https://drive.google.com/file/d/1pZICLuflrcLkZa0ZvZYLl-iro8PU3jDx/view?usp=sharing",
+    githubLink: "https://github.com/morlanandini/resume_JD_matcher",
+    image: "/images/Screenshot 2025-02-14 at 3.25.29 PM.png",
+    video : "/images/resume.mov"
+  },
+  {
     title: "RocketApply paltform",
     description:
 "A website to Streamline your job search with our AI-powered platform. Create a profile, upload your resume, and let us apply for jobs on your behalf. Effortless applications, smarter job matches—start today and let AI find your next opportunity. Currently under-development, landing page is done!",
